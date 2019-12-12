@@ -26,6 +26,9 @@ aside {
   padding: 15px;
   border-radius: 5px;
 }
+.form-wrap {
+  color: #333;
+}
 .form-wrap h1,
 .form-wrap p {
   text-align: center;
@@ -39,14 +42,14 @@ aside {
 }
 .form-group label {
   display: block;
+  color: #666;
   margin-bottom: 5px;
-  color: grey;
 }
 .form-group input {
   width: 100%;
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid lightgrey;
+  border: 1px solid #ddd;
 }
 .form-wrap button {
   width: 100%;
@@ -57,6 +60,7 @@ aside {
   border: none;
   margin-bottom: 20px;
   font-size: 1em;
+  cursor: pointer
 }
 .form-wrap button:hover {
   background-color: #37a08e;
@@ -64,11 +68,13 @@ aside {
 .form-wrap .bottom-text {
   font-size: 0.8em;
 }
-
 footer {
   text-align: center;
   color: white;
 }
 footer a {
   color: #49c1a2;
+}
+footer a:hover {
+  color: #37a08e;
 }
