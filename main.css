@@ -1,0 +1,74 @@
+/* Reset default styling */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  background: #344a72;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+}
+a {
+  text-decoration: none;
+}
+aside {
+  width: 30%;
+   /* Center the form-wrap div inside the aside */
+  margin: 50px auto;
+  max-width: 400px;
+  min-width: 300px;
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+.form-wrap h1,
+.form-wrap p {
+  text-align: center;
+}
+.form-wrap h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.form-wrap .form-group {
+  margin: 20px 0;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: grey;
+}
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+}
+.form-wrap button {
+  width: 100%;
+  background-color: #49c1a2;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  font-size: 1em;
+}
+.form-wrap button:hover {
+  background-color: #37a08e;
+}
+.form-wrap .bottom-text {
+  font-size: 0.8em;
+}
+
+footer {
+  text-align: center;
+  color: white;
+}
+footer a {
+  color: #49c1a2;
+}
