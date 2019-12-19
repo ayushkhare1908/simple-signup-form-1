@@ -6,32 +6,39 @@
 }
 html {
   font-size: 16px;
+  height: 100%;
 }
 body {
   background: #344a72;
   font-family: 'Raleway', sans-serif;
-  font-size: 1em;
+  font-size: 1rem;
   line-height: 1.5;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  /* Center the aside on main or X axis */
+  align-items: center;
 }
 a {
   text-decoration: none;
 }
 aside {
-  width: 30%;
-   /* Center the form-wrap div inside the aside */
-  margin: 50px auto;
+  width: 50%;
+  /* Limit the widths so the form doesn't distort */
   max-width: 400px;
-  min-width: 300px;
+  min-width: 280px;
   background: white;
-  padding: 15px;
   border-radius: 5px;
+  padding: 15px;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 .form-wrap {
+  /* align all of the form elements in a column and center */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: #333;
-}
-.form-wrap h1,
-.form-wrap p {
-  text-align: center;
 }
 .form-wrap h1 {
   font-size: 2em;
@@ -41,6 +48,7 @@ aside {
   margin: 20px 0;
 }
 .form-group label {
+  /* display as block so that we can style as needed */
   display: block;
   color: #666;
   margin-bottom: 5px;
@@ -66,6 +74,7 @@ aside {
   background-color: #37a08e;
 }
 .form-wrap .bottom-text {
+  text-align: center;
   font-size: 0.8em;
 }
 footer {
